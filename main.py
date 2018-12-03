@@ -35,6 +35,12 @@ def testar():
     resposta = jsonify(teste)
 
     return resposta, 201
+
+@app.route("/", methods=["POST"])
+def testar():
+    resposta = jsonify("teste")
+
+    return resposta, 201
     
 
 @app.route("/queromever/api/v1.0/fotos/<int:id_usu>", methods=["GET"])
