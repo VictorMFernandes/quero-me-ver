@@ -1,0 +1,6 @@
+Flask
+Flask-RESTful
+cmake
+Pillow
+dlib
+uwsgi
