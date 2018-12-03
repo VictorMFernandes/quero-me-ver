@@ -27,7 +27,7 @@ def criar_usuario():
     resposta = jsonify({"task": usuario})
     return resposta, 201
 
-@app.route("/testar", methods=["POST"])
+@app.route("/queromever/api/v1.0/testar", methods=["POST"])
 def testar():
     teste = {
         "testar": request.json["testar"]
