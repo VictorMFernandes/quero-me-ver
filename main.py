@@ -27,7 +27,7 @@ def criar_usuario():
     resposta = jsonify({"task": usuario})
     return resposta, 201
 
-@app.route("/", methods=["POST"])
+@app.route("/testar", methods=["POST"])
 def testar():
     teste = {
         "testar": request.json["testar"]
